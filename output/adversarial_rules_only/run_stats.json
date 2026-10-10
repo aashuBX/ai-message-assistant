@@ -1,0 +1,43 @@
+{
+  "input": "samples/adversarial.json",
+  "run_at": "2026-10-10T10:49:14+05:30",
+  "mode": "rules_only",
+  "model": null,
+  "llm_disabled_reason": null,
+  "elapsed_s": 0.0,
+  "messages": 28,
+  "by_decision": {
+    "human": 28
+  },
+  "by_status": {
+    "invalid_input": 9,
+    "degraded": 19
+  },
+  "by_priority": {
+    "P1": 1,
+    "P2": 4,
+    "P3": 23
+  },
+  "by_rule": {
+    "R1": 9,
+    "R2": 19
+  },
+  "by_owner": {
+    "vitalis_support": 18,
+    "general_support": 5,
+    "hair_frontdesk": 3,
+    "trust_safety": 2
+  },
+  "llm": {
+    "messages_classified": 0,
+    "calls": 0,
+    "input_tokens": 0,
+    "cached_input_tokens": 0,
+    "output_tokens": 0,
+    "avg_input_tokens_per_message": null,
+    "avg_output_tokens_per_message": null,
+    "latency_ms_p50": null,
+    "latency_ms_max": null
+  },
+  "cost": null
+}

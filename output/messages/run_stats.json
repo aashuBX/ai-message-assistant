@@ -1,0 +1,69 @@
+{
+  "input": "messages.json",
+  "run_at": "2026-10-10T16:55:40+05:30",
+  "mode": "llm",
+  "model": "openai/gpt-oss-120b",
+  "llm_disabled_reason": null,
+  "elapsed_s": 480.7,
+  "messages": 25,
+  "by_decision": {
+    "automation": 10,
+    "human": 15
+  },
+  "by_status": {
+    "ok": 24,
+    "invalid_input": 1
+  },
+  "by_priority": {
+    "P1": 1,
+    "P2": 6,
+    "P3": 13,
+    "P4": 5
+  },
+  "by_rule": {
+    "R1": 1,
+    "R3": 1,
+    "R4": 2,
+    "R5": 8,
+    "R6": 2,
+    "R7": 1,
+    "R9": 10
+  },
+  "by_owner": {
+    "automation": 10,
+    "vitalis_support": 4,
+    "voyage_agents": 2,
+    "voyage_sales": 2,
+    "trust_safety": 1,
+    "vitalis_billing": 1,
+    "vitalis_sales": 1,
+    "hair_frontdesk": 1,
+    "voyage_emergency": 1,
+    "vitalis_health": 1,
+    "finance_ap": 1
+  },
+  "llm": {
+    "messages_classified": 24,
+    "calls": 70,
+    "input_tokens": 81419,
+    "cached_input_tokens": 32256,
+    "output_tokens": 21792,
+    "avg_input_tokens_per_message": 3392,
+    "avg_output_tokens_per_message": 908,
+    "latency_ms_p50": 21554,
+    "latency_ms_max": 50811
+  },
+  "cost": {
+    "run_usd": 0.02287,
+    "per_message_usd": 0.000953,
+    "per_1000_messages_usd": 0.953,
+    "per_day_at_10k_usd": 9.53,
+    "price_per_1m_tokens_usd": {
+      "input": 0.15,
+      "cached_input": 0.075,
+      "output": 0.6
+    },
+    "prices_checked_on": "2026-10-10",
+    "basis": "measured token usage of this run (includes retries and second-opinion calls) x list price"
+  }
+}

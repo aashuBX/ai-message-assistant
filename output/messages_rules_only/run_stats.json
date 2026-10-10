@@ -1,0 +1,44 @@
+{
+  "input": "messages.json",
+  "run_at": "2026-10-10T10:49:10+05:30",
+  "mode": "rules_only",
+  "model": null,
+  "llm_disabled_reason": null,
+  "elapsed_s": 0.1,
+  "messages": 25,
+  "by_decision": {
+    "human": 25
+  },
+  "by_status": {
+    "degraded": 24,
+    "invalid_input": 1
+  },
+  "by_priority": {
+    "P1": 1,
+    "P2": 3,
+    "P3": 21
+  },
+  "by_rule": {
+    "R1": 1,
+    "R2": 24
+  },
+  "by_owner": {
+    "vitalis_support": 12,
+    "hair_frontdesk": 6,
+    "voyage_agents": 5,
+    "trust_safety": 1,
+    "voyage_emergency": 1
+  },
+  "llm": {
+    "messages_classified": 0,
+    "calls": 0,
+    "input_tokens": 0,
+    "cached_input_tokens": 0,
+    "output_tokens": 0,
+    "avg_input_tokens_per_message": null,
+    "avg_output_tokens_per_message": null,
+    "latency_ms_p50": null,
+    "latency_ms_max": null
+  },
+  "cost": null
+}

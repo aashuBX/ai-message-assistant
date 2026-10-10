@@ -1,0 +1,4 @@
+openai>=1.40,<3        # client for Groq's API
+pydantic>=2.7,<3
+python-dotenv>=1.0
+phonenumbers>=8.13
